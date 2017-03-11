@@ -1,0 +1,17 @@
+pkgbase = faenza-green-icon-theme
+	pkgdesc = Green variant of Faenza Icon theme
+	pkgver = 2010.11.20
+	pkgrel = 3
+	url = http://gnome-look.org/content/show.php/Mint-X-Faenza+Folders+%28Mint-X-F%29?content=135238
+	install = faenza-green-icon-theme.install
+	arch = any
+	license = GPL3
+	depends = faenza-icon-theme
+	options = !strip
+	source = http://gnome-look.org/CONTENT/content-files/135238-Mint-X-F.tar.gz
+	source = inherits.patch
+	md5sums = 09205a1d108d586957ab26d346291be9
+	md5sums = a5e82732f9f2bbc748ff3119e9b77275
+
+pkgname = faenza-green-icon-theme
+
