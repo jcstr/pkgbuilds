@@ -1,0 +1,15 @@
+# systemd service copied from the arango AUR package
+
+[Unit]
+Description=ArangoDB
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=arangodb
+Group=arangodb
+PIDFile=/var/run/arangodb/arangod.pid
+ExecStart=/usr/bin/arangod -c /etc/arangodb3/arangod.conf --pid-file /var/run/arangodb/arangod.pid --temp.path /var/tmp/arangod3
+
+[Install]
+WantedBy=multi-user.target
