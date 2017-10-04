@@ -1,0 +1,15 @@
+pkgbase = python-aur
+	pkgdesc = Arch User Repository API interface for Python
+	pkgver = 0.11.0
+	pkgrel = 1
+	url = https://github.com/cdown/aur
+	arch = any
+	license = ISC
+	makedepends = python-setuptools
+	depends = python-requests
+	depends = python-inflection
+	source = https://pypi.python.org/packages/source/a/aur/aur-0.11.0.tar.gz
+	md5sums = 3519e86d744555781d5d98f561ff8665
+
+pkgname = python-aur
+
