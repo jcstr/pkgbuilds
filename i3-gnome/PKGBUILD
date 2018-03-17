@@ -9,8 +9,8 @@ arch=('any')
 url="https://github.com/51v4n/i3-gnome/"
 license=('MIT')
 depends=('i3-wm')
-source=(i3-gnome-3.0.zip::https://github.com/51v4n/i3-gnome/archive/3.0.zip)
-md5sums=('bf68e20252e6ae9dcc386b868a20f591')
+source=(i3-gnome-3.26.2.zip::https://github.com/51v4n/i3-gnome/archive/3.26.2.zip)
+md5sums=('1873c021339073c6204c349bf1677bc9')
 
 build() {
   cd "$pkgname-$pkgver"
